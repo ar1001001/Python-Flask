@@ -11,10 +11,6 @@ def hello():
     return render_template('index.html')
 
 
-@app.route("/<name>")
-def myBio(name):
-    return f"Hello {name}!"
-
 
 # start the server
 if __name__ == "__main__":
